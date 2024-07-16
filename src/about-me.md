@@ -16,7 +16,7 @@ While I don't keep them up-to-date, if you're interested (or looking for) my old
 - [jcstein.com](https://jcstein.com) (2020-2021)
 - [josh.onrender.com](https://josh.onrender.com/) (2020-2021)
 
-I'm also hanging out in Developer DAO and Peeple DAO.
+I'm also hanging out in [Developer DAO](https://developerdao.com) and [Peeple DAO](https://peeple.work/)
 
 Previously, I was a a Developer Relations Engineer at [Ankr](https://ankr.com) and teaching assistant with [buildspace](https://buildspace.so).
 
