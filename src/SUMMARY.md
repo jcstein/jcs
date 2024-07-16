@@ -9,4 +9,4 @@
 
 ---
 
-[Verify me](./verify.md)
+[Verify my identity](./verify.md)

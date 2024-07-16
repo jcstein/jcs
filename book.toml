@@ -14,4 +14,14 @@ git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/jcstein/jcs/edit/main/{path}"
 cname = "jcstein.dev"
 smart-punctuation = true
-additional-js = ["plausible.js"]
+theme = "theme"
+
+[output.html.print]
+page-break = false
+
+[output.html.redirect]
+"/joshcs-lol.html" = "https://joshcs-lol.vercel.app"
+"/joshcs-xyz.html" = "https://joshcs.xyz"
+"/jcs-dev.html" = "https://jcs-dev.onrender.com"
+"/jcstein.html" = "https://jcstein.com"
+"/josh-on-render.html" = "https://josh.onrender.com"

@@ -10,11 +10,11 @@ I'm also hanging out in [Developer DAO](https://developerdao.com) and [Peeple DA
 
 While I don't keep them up-to-date, if you're interested (or looking for) my old portfolios, you can find them here:
 
-- [joshcs-lol](https://joshcs-lol.vercel.app/) (2022-2024)
-- [joshcs.xyz](https://joshcs.xyz) (2021-2022)
-- [jcs-dev](https://jcs-dev.onrender.com/) (2021)
-- [jcstein.com](https://jcstein.com) (2020-2021)
-- [josh.onrender.com](https://josh.onrender.com/) (2020-2021)
+- [joshcs-lol](/joshcs-lol.html) (2022-2024)
+- [joshcs.xyz](/joshcs-xyz.html) (2021-2022)
+- [jcs-dev](/jcs-dev.html) (2021)
+- [jcstein.com](/jcstein.html) (2020-2021)
+- [josh.onrender.com](/josh-on-render.html) (2020-2021)
 
 In the past, I also co-founded [Lattice Supply](https://lattice.supply/).
 
