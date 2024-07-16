@@ -22,9 +22,9 @@
 ## Design
 
 - [Behance](https://www.behance.net/joshcstein)
-- [Developer DAO vibes logo](https://joshcs-lol.vercel.app/dd.png)
-- [Developer DAO happy hour banner](https://joshcs-lol.vercel.app/pn.png)
-- [Developer DAO member hh banner](https://joshcs-lol.vercel.app/vibes.png)
+- [Developer DAO vibes logo](https://joshcs-lol.vercel.app/dd.webp)
+- [Developer DAO happy hour banner](https://joshcs-lol.vercel.app/pn.webp)
+- [Developer DAO member hh banner](https://joshcs-lol.vercel.app/vibes.webp)
 
 ## Art galleries
 

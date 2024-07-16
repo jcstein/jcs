@@ -8,9 +8,9 @@ In October 2021, I discovered buildspace through Developer DAO.
 
 The next pages show my previous projects, presentations, and things I've built.
 
-I'm also hanging out in [Developer DAO](https://developerdao.com) and [Peeple DAO](https://peeple.work/)
-
 Previously, I was a a Developer Relations Engineer at [Ankr](https://ankr.com) and teaching assistant with [buildspace](https://buildspace.so).
+
+I'm also hanging out in [Developer DAO](https://developerdao.com) and [Peeple DAO](https://peeple.work/)
 
 In the past, I also co-founded [Lattice Supply](https://lattice.supply/).
 
