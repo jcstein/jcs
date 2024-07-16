@@ -8,6 +8,12 @@ In October 2021, I discovered buildspace through Developer DAO.
 
 The next pages show my previous projects, presentations, and things I've built.
 
+I'm also hanging out in [Developer DAO](https://developerdao.com) and [Peeple DAO](https://peeple.work/)
+
+Previously, I was a a Developer Relations Engineer at [Ankr](https://ankr.com) and teaching assistant with [buildspace](https://buildspace.so).
+
+In the past, I also co-founded [Lattice Supply](https://lattice.supply/).
+
 While I don't keep them up-to-date, if you're interested (or looking for) my old portfolios, you can find them here:
 
 - [joshcs-lol](https://joshcs-lol.vercel.app/) (2022-2024)
@@ -15,9 +21,3 @@ While I don't keep them up-to-date, if you're interested (or looking for) my old
 - [jcs-dev](https://jcs-dev.onrender.com/) (2021)
 - [jcstein.com](https://jcstein.com) (2020-2021)
 - [josh.onrender.com](https://josh.onrender.com/) (2020-2021)
-
-I'm also hanging out in [Developer DAO](https://developerdao.com) and [Peeple DAO](https://peeple.work/)
-
-Previously, I was a a Developer Relations Engineer at [Ankr](https://ankr.com) and teaching assistant with [buildspace](https://buildspace.so).
-
-In the past, I also co-founded [Lattice Supply](https://lattice.supply/).
