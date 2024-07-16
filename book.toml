@@ -1,6 +1,17 @@
 [book]
-authors = []
+title = "Josh Stein"
+authors = ["Josh Stein"]
+description = "Josh Stein's Portfolio"
 language = "en"
 multilingual = false
 src = "src"
-title = "Josh Stein"
+
+[output.html]
+default-theme = "rust"
+preferred-dark-theme = "ayu"
+git-repository-url = "https://github.com/jcstein/jcs"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/jcstein/jcs/edit/main/{path}"
+cname = "jcstein.dev"
+smart-punctuation = true
+additional-js = ["plausible.js"]

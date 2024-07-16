@@ -1,4 +1,4 @@
-# Introduction
+# Intro
 
 My name is Josh Stein. Welcome to my site!
 
