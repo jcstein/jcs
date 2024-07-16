@@ -1,5 +1,13 @@
 # Projects
 
+- quick install celestia-node
+  ```bash
+  bash -c "$(curl -sL https://docs.celestia.org/celestia-node.sh)"
+  ```
+- quick install celestia-app
+  ```bash
+  bash -c "$(curl -sL https://docs.celestia.org/celestia-app.sh)"
+  ```
 - [celestia.cool](https://celestia.cool) - a Celestia mempool visualization
 - [light-nodes](https://www.npmjs.com/package/light-nodes) - an NPM package for using celestia-node
 - [Quazar](https://github.com/jcstein/quazar) - a Celestia light node client for macOS
