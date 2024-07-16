@@ -1,13 +1,5 @@
 # My work
 
-I'm currently a Solutions Engineer at Celestia Labs. We're building the first modular blockchain network.
-
-I'm also hanging out in Developer DAO and Peeple DAO.
-
-Previously, I was a a Developer Relations Engineer at [Ankr](https://ankr.com) and teaching assistant with [buildspace](https://buildspace.so).
-
-In the past, I also co-founded [Lattice Supply](https://lattice.supply/).
-
 ## Projects
 
 - [celestia.cool](https://celestia.cool) - a Celestia mempool visualization
