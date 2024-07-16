@@ -4,4 +4,4 @@ If you're verifying my identity, my telegram is `@josh_cs` (please, don't use th
 
 My discord handle is `joshcs.eth`.
 
-If you're somehow using linkedin still, [here is my portfolio](https://linkedin.com/in/joshcstein).
+If you're using linkedin still, [here is my portfolio](https://linkedin.com/in/joshcstein).

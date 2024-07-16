@@ -10,28 +10,6 @@ In the past, I also co-founded [Lattice Supply](https://lattice.supply/).
 
 ## Projects
 
-## Presentations
-
-## Writing
-
-- [Paragraph](https://paragraph.xyz/@jcs)
-- [Mirror](https://mirror.xyz/joshcstein.eth)
-- [Hashnode](https://hashnode.com/@jcstein)
-- [Substack](https://joshcs.substack.com/)
-- [Blog](https://blog.jcstein.dev/)
-
-## Design
-
-- [Behance](https://www.behance.net/joshuastein)
-
-## Art galleries
-
-- [Deca](https://deca.art/joshcs/3)
-- [oncyber](https://oncyber.io/joshstein)
-
-
-## Projects
-
 - [celestia.cool](https://celestia.cool) - a Celestia mempool visualization
 - [light-nodes](https://www.npmjs.com/package/light-nodes) - an NPM package for using celestia-node
 - [Quazar](https://github.com/jcstein/quazar) - a Celestia light node client for macOS
@@ -102,9 +80,3 @@ In the past, I also co-founded [Lattice Supply](https://lattice.supply/).
 
 - [Deca](https://deca.art/joshcs/3)
 - [oncyber](https://oncyber.io/joshstein)
-
-## Old portfolio sites
-
-- [joshcs.xyz](https://joshcs.xyz)
-- [jcstein.dev](https://jcstein.dev)
-- [jcstein.com](https://jcstein.com)
