@@ -7,7 +7,7 @@ multilingual = false
 src = "src"
 
 [output.html]
-default-theme = "rust"
+default-theme = "light"
 preferred-dark-theme = "ayu"
 git-repository-url = "https://github.com/jcstein/jcs"
 git-repository-icon = "fa-github"
