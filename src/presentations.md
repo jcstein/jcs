@@ -1,5 +1,7 @@
 # Presentations
 
+- [How to build whatever (Encode Club's Chain Abstraction educate series)](https://www.youtube.com/watch?v=P3EG5FmUvNI)
+- [How to build whatever (Modular Summit 3.0)](https://www.youtube.com/watch?v=ZCB7y0xIYRI)
 - [How to Build Whatever (Consensus 2024)](https://consensus2024.coindesk.com/agenda/event/-how-to-build-whatever-389)
 - [Building with OP Stack (Infinite Space Bazaar)
 ](https://www.youtube.com/watch?v=ruXxChTdLzo)
