@@ -1,5 +1,8 @@
 # Projects
 
+- [TG Announcement Bot](https://github.com/jcstein/tg-announcement-bot)
+- [dummy_rollup with tictactoe](https://github.com/jcstein/dummy_rollup/tree/tictactoe)
+- [dummy_rollup](https://github.com/jcstein/dummy_rollup)
 - quick install celestia-node
   ```bash
   bash -c "$(curl -sL https://docs.celestia.org/celestia-node.sh)"
