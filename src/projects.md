@@ -1,6 +1,6 @@
 # Projects
 
-- [TG Announcement Bot](https://github.com/jcstein/tg-announcement-bot) - A Telegram bot for sending formatted announcements to multiple channels simultaneously.
+- [Telegram Announcement Bot](https://github.com/jcstein/tg-announcement-bot) - A Telegram bot for sending formatted announcements to multiple channels simultaneously.
 - [dummy_rollup with tictactoe](https://github.com/jcstein/dummy_rollup/tree/tictactoe) - This is a Tic-tac-toe game implementation using the Celestia blockchain.
 - [dummy_rollup](https://github.com/jcstein/dummy_rollup) - This is a dummy rollup project to test posting and retrieving data from Celestia.
 - quick install celestia-node
