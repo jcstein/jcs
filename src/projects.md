@@ -1,5 +1,7 @@
 # Projects
 
+- [Celestia Gas Price](https://github.com/jcstein/celestia-gas-price) - Raycast extension for Celestia gas prices
+- [Celestia Address](https://github.com/jcstein/celestia-address) - Raycast extension for viewing Celestia addresses on Celenium
 - [Mammoth Control Panel](https://github.com/jcstein/node-ui) - A UI to interact with a Celestia light node for mamo-1 testnet, live at [gmamo.vercel.app](https://gmamo.vercel.app) or [controller.jcstein.dev](https://controller.jcstein.dev/)
 - [Telegram Announcement Bot](https://github.com/jcstein/tg-announcement-bot) - A Telegram bot for sending formatted announcements to multiple channels simultaneously.
 - [dummy_rollup with tictactoe](https://github.com/jcstein/dummy_rollup/tree/tictactoe) - This is a Tic-tac-toe game implementation using the Celestia blockchain.
