@@ -1,5 +1,6 @@
 # Projects
 
+- [Mammoth Control Panel](https://github.com/jcstein/node-ui) - A UI to interact with a Celestia light node for mamo-1 testnet, live at [gmamo.vercel.app](https://gmamo.vercel.app) or [controller.jcstein.dev](https://controller.jcstein.dev/)
 - [Telegram Announcement Bot](https://github.com/jcstein/tg-announcement-bot) - A Telegram bot for sending formatted announcements to multiple channels simultaneously.
 - [dummy_rollup with tictactoe](https://github.com/jcstein/dummy_rollup/tree/tictactoe) - This is a Tic-tac-toe game implementation using the Celestia blockchain.
 - [dummy_rollup](https://github.com/jcstein/dummy_rollup) - This is a dummy rollup project to test posting and retrieving data from Celestia.
