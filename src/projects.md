@@ -16,7 +16,7 @@
   ```
 - [celestia.cool](https://celestia.cool) - a Celestia mempool visualization
 - [light-nodes](https://www.npmjs.com/package/light-nodes) - an NPM package for using celestia-node
-- [Quazar](https://github.com/jcstein/quazar) - a Celestia light node client for macOS
+- [Quazar](https://github.com/jcstein/node-app) - a Celestia light node client for macOS
 - [moveyourcar.lol](https://moveyourcar.lol) - a bot to send you parking notifications near you
 - [An implementation of Scaffold-ETH Optimistic Loogies on a rollup](https://github.com/jcstein/optimistic-loogies)
 - [Screen Names](https://github.com/jcstein/ScreenNames) - a lightweight app to help you rename screenshots on macOS
