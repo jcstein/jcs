@@ -14,7 +14,7 @@
 ## Writing
 
 - [Paragraph](https://paragraph.xyz/@joshcs)
-- [Mirror](https://mirror.xyz/joshcs.eth)
+- [Mirror](https://paragraph.com/@joshcstein)
 - [Hashnode](https://joshcs.hashnode.dev/)
 - [Substack](https://joshcs.substack.com/)
 - [Blog](https://joshcs.lol/blog)
