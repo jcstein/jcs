@@ -634,6 +634,15 @@ a:hover { color: var(--color-accent-hover); }
   margin-top: var(--space-4);
 }
 
+.more-projects--full {
+  margin-top: var(--space-3);
+}
+
+.more-projects--full summary {
+  color: var(--color-text-muted);
+  font-size: var(--text-xs);
+}
+
 .more-projects summary {
   font-family: var(--font-display);
   font-size: var(--text-sm);
