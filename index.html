@@ -1,42 +1,24 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <!--
-           ______                            __
-          / ____/___  ____ ___  ____  __  __/ /____  _____
-         / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
-        / /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
-        \____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
-                            /_/
-                Created with Perplexity Computer
-                https://www.perplexity.ai/computer
-        -->
-
-        <!-- Perplexity Computer Attribution — SEO Meta Tags -->
-        <meta name="generator" content="Perplexity Computer">
-        <meta name="author" content="Perplexity Computer">
-        <meta property="og:see_also" content="https://www.perplexity.ai/computer">
-        <link rel="author" href="https://www.perplexity.ai/computer">
-
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Josh Stein — Developer Advocate</title>
-        <meta name="description" content="Developer Advocate at Celestia Labs. Building modular blockchains, documentation, and developer tools." />
+        <title>Josh Stein</title>
         <link rel="stylesheet" href="style.css" />
-        <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='24' font-size='24' font-family='monospace' fill='%237c5cfc'>jcs</text></svg>" />
-
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-        <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,600,700&display=swap" rel="stylesheet">
 
         <!-- Analytics -->
-        <script defer data-domain="jcstein.dev" src="https://plausible.io/js/plausible.js"></script>
+        <script
+            defer
+            data-domain="jcstein.dev"
+            src="https://plausible.io/js/plausible.js"
+        ></script>
 
         <!-- Meta Tags -->
-        <meta property="og:title" content="Josh Stein — Developer Advocate" />
-        <meta property="og:description" content="Developer Advocate at Celestia Labs. Building modular blockchains, documentation, and developer tools." />
+        <meta property="og:title" content="Josh Stein - Developer Advocate" />
+        <meta
+            property="og:description"
+            content="Developer Advocate at Celestia Labs. Building modular blockchains, documentation, and developer tools."
+        />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://jcstein.dev" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -44,459 +26,442 @@
         <meta name="twitter:site" content="@JoshCStein" />
     </head>
     <body>
-        <!-- Sticky Navigation -->
-        <nav class="site-nav" id="siteNav" aria-label="Main navigation">
-            <div class="nav-inner">
-                <a href="#top" class="nav-logo" aria-label="Josh Stein — home">
-                    <svg viewBox="0 0 80 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="wordmark">
-                        <text x="0" y="18" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="700" fill="currentColor">jcs</text>
-                        <rect x="52" y="4" width="3" height="14" rx="1.5" fill="var(--color-accent)" opacity="0.9"/>
-                    </svg>
-                </a>
-                <div class="nav-links">
-                    <a href="#about" class="nav-link">About</a>
-                    <a href="#projects" class="nav-link">Projects</a>
-                    <a href="#talks" class="nav-link">Talks</a>
-                    <a href="#writing" class="nav-link">Writing</a>
-                    <a href="#design" class="nav-link">Design</a>
-                </div>
-                <button class="theme-toggle" data-theme-toggle aria-label="Switch to dark mode">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
-                    </svg>
-                </button>
-            </div>
-        </nav>
-
         <main>
-            <!-- Hero -->
-            <section class="hero" id="top">
-                <div class="hero-content">
-                    <div class="hero-badge">Developer Advocate @ Celestia Labs</div>
-                    <h1 class="hero-title">Josh Stein</h1>
-                    <p class="hero-description">I build developer tools, write documentation, and run hackathons for <a href="https://celestia.org">modular blockchains</a>. I care about making complex infrastructure accessible and fun.</p>
-                    <div class="hero-actions">
-                        <a href="https://github.com/jcstein" class="btn btn-primary">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
-                            GitHub
-                        </a>
-                        <a href="https://x.com/JoshCStein" class="btn btn-secondary">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                            @JoshCStein
-                        </a>
-                        <a href="https://warpcast.com/jcs" class="btn btn-secondary">Farcaster</a>
-                        <a href="https://bsky.app/profile/jcs.bsky.social" class="btn btn-secondary">Bluesky</a>
-                    </div>
-                </div>
-                <div class="hero-visual">
-                    <div class="code-window">
-                        <div class="code-titlebar">
-                            <span class="dot dot-red"></span>
-                            <span class="dot dot-yellow"></span>
-                            <span class="dot dot-green"></span>
-                            <span class="code-filename">~/celestia</span>
-                        </div>
-                        <pre class="code-body"><code><span class="code-prompt">$</span> <span class="code-cmd">celestia light start</span>
-<span class="code-output">INFO  Started Celestia light node</span>
-<span class="code-output">INFO  Listening on /ip4/0.0.0.0/tcp/2121</span>
-<span class="code-output">INFO  Syncing headers... <span class="code-success">✓ caught up</span></span>
-<span class="code-prompt">$</span> <span class="code-cmd">echo "building whatever"</span>
-<span class="code-output">building whatever</span>
-<span class="code-prompt">$</span> <span class="code-cursor">█</span></code></pre>
-                    </div>
-                </div>
+            <header>
+                <h1>Josh Stein</h1>
+                <p class="subtitle">Developer Advocate at Celestia Labs</p>
+            </header>
+
+            <section>
+                <p>
+                    I work on the Developer Experience team and focus on
+                    documentation, demos, and hackathons. I am also an editor
+                    for the Celestia Improvement Proposal process, which you can
+                    get involved in at
+                    <a href="https://cips.celestia.org">cips.celestia.org</a>
+                    and
+                    <a href="https://forum.celestia.org">forum.celestia.org</a>.
+                </p>
+
+                <p>
+                    If you're looking to get in touch, I am most active on
+                    <a href="https://github.com/jcstein">GitHub</a>,
+                    <a href="https://x.com/JoshCStein">X</a>,
+                    <a href="https://warpcast.com/jcs">Farcaster</a>, and
+                    <a href="https://bsky.app/profile/jcs.bsky.social"
+                        >Bluesky</a
+                    >.
+                </p>
             </section>
 
-            <!-- About -->
-            <section class="section" id="about">
-                <div class="section-header">
-                    <h2 class="section-title">About</h2>
-                </div>
-                <div class="about-grid">
-                    <div class="about-text">
-                        <p>I work on the Developer Experience team at <a href="https://celestia.org">Celestia Labs</a>, focusing on documentation, demos, and hackathons. I'm also an editor for the <a href="https://cips.celestia.org">Celestia Improvement Proposal</a> process, which you can get involved in at <a href="https://forum.celestia.org">forum.celestia.org</a>.</p>
-                        <p>My journey into tech started during the pandemic while finishing my BS in Business (Supply Chain Management &amp; Analytics) at VCU. I discovered web development, then blockchain, and never looked back.</p>
-                        <p>Previously: <a href="https://ankr.com">Ankr</a> (DevRel Engineer), <a href="https://buildspace.so">buildspace</a> (TA), co-founder of <a href="https://instagram.com/lattice.supply">Lattice Supply</a>. Active in <a href="https://developerdao.com">Developer DAO</a> and <a href="https://peeple.work">Peeple DAO</a>.</p>
-                    </div>
-                    <div class="tech-stack">
-                        <h3 class="stack-label">Tech I work with</h3>
-                        <div class="tags">
-                            <span class="tag">TypeScript</span>
-                            <span class="tag">React</span>
-                            <span class="tag">Go</span>
-                            <span class="tag">Solidity</span>
-                            <span class="tag">Celestia</span>
-                            <span class="tag">Rollkit</span>
-                            <span class="tag">OP Stack</span>
-                            <span class="tag">Swift</span>
-                            <span class="tag">Vite</span>
-                            <span class="tag">Node.js</span>
-                            <span class="tag">Hardhat</span>
-                            <span class="tag">Raycast</span>
-                        </div>
-                    </div>
-                </div>
+            <section>
+                <h2>About</h2>
+                <p>
+                    I began my journey into the computer science world when I
+                    was finishing university during the pandemic. I discovered
+                    my love for making lightweight websites and my love for
+                    blockchains shortly after.
+                </p>
+
+                <p>
+                    I completed my Bachelor of Science in Business concentrating
+                    in Supply Chain Management and Analytics from VCU's School
+                    of Business and a Minor in Mathematics in May 2021. I made
+                    Dean's List in August 2020 and May 2021.
+                </p>
+
+                <p>
+                    In October 2021, I discovered buildspace through Developer
+                    DAO. This led me to my first frontend contract and then a
+                    short gig as a teaching assistant with
+                    <a href="https://buildspace.so">buildspace</a> (see my
+                    <a href="https://buildspace.so/@josh">buildspace profile</a
+                    >). Next, I worked full-time as a Developer Relations
+                    Engineer at <a href="https://ankr.com">Ankr</a>.
+                </p>
+
+                <p>
+                    I'm also hanging out in
+                    <a href="https://developerdao.com">Developer DAO</a> and
+                    <a href="https://peeple.work">Peeple DAO</a>.
+                </p>
+
+                <p>
+                    In the past, I also co-founded
+                    <a href="https://instagram.com/lattice.supply"
+                        >Lattice Supply</a
+                    >
+                    and founded
+                    <a href="https://wellness-dao-2.vercel.app">Wellness DAO</a
+                    >.
+                </p>
             </section>
 
-            <!-- Featured Projects -->
-            <section class="section" id="projects">
-                <div class="section-header">
-                    <h2 class="section-title">Projects</h2>
-                    <p class="section-subtitle">Featured work and open-source tools</p>
-                </div>
-
-                <div class="featured-grid">
-                    <a href="https://github.com/jcstein/node-app" class="project-card project-card--featured">
-                        <div class="card-accent"></div>
-                        <div class="card-content">
-                            <div class="card-tag">macOS App</div>
-                            <h3>Quazar</h3>
-                            <p>A native macOS desktop client for running Celestia light nodes. Bringing blockchain infrastructure to the desktop.</p>
-                            <div class="card-meta">
-                                <span>Swift</span>
-                                <span>Celestia</span>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="https://github.com/jcstein/celestia-cool" class="project-card">
-                        <div class="card-accent"></div>
-                        <div class="card-content">
-                            <div class="card-tag">Visualization</div>
-                            <h3>celestia.cool</h3>
-                            <p>Real-time mempool visualization for the Celestia network.</p>
-                            <div class="card-meta">
-                                <span>React</span>
-                                <span>Vite</span>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="https://github.com/jcstein/celestia-gas-price" class="project-card">
-                        <div class="card-accent"></div>
-                        <div class="card-content">
-                            <div class="card-tag">Developer Tool</div>
-                            <h3>Celestia Gas Price</h3>
-                            <p>Raycast extension for quick Celestia gas price lookups.</p>
-                            <div class="card-meta">
-                                <span>TypeScript</span>
-                                <span>Raycast</span>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="https://github.com/jcstein/dummy_rollup/tree/tictactoe" class="project-card">
-                        <div class="card-accent"></div>
-                        <div class="card-content">
-                            <div class="card-tag">Blockchain</div>
-                            <h3>dummy_rollup</h3>
-                            <p>Tic-tac-toe on a blockchain using Celestia as the DA layer.</p>
-                            <div class="card-meta">
-                                <span>Go</span>
-                                <span>Rollkit</span>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="https://github.com/jcstein/node-ui" class="project-card">
-                        <div class="card-accent"></div>
-                        <div class="card-content">
-                            <div class="card-tag">UI</div>
-                            <h3>Mammoth Control Panel</h3>
-                            <p>Web UI to interact with a Celestia light node on testnet.</p>
-                            <div class="card-meta">
-                                <span>React</span>
-                                <span>Celestia</span>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="https://github.com/jcstein/bitkit" class="project-card">
-                        <div class="card-accent"></div>
-                        <div class="card-content">
-                            <div class="card-tag">Demo</div>
-                            <h3>Bitkit.dev</h3>
-                            <p>Bitcoin + Rollkit + EVM demo combining multiple blockchain layers.</p>
-                            <div class="card-meta">
-                                <span>Rollkit</span>
-                                <span>EVM</span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <details class="more-projects">
-                    <summary>More projects <span class="count">(20+)</span></summary>
-                    <ul class="project-list">
-                        <li><a href="https://github.com/jcstein/celestia-address">Celestia Address</a> — Raycast extension for Celenium address lookup</li>
-                        <li><a href="https://github.com/jcstein/tg-announcement-bot">Telegram Announcement Bot</a> — Multi-channel formatted announcements</li>
-                        <li><a href="https://github.com/jcstein/dummy_rollup">dummy_rollup</a> — Test posting/retrieving data from Celestia</li>
-                        <li><a href="https://www.youtube.com/watch?v=YbMX42ILtLA">CelestiaGPT</a> — AI chatbot for Celestia docs</li>
-                        <li><a href="https://www.npmjs.com/package/light-nodes">light-nodes</a> — NPM package for celestia-node</li>
-                        <li><a href="https://github.com/jcstein/loogies">Optimistic Loogies</a> — Scaffold-ETH rollup implementation</li>
-                        <li><a href="https://x.com/joshcstein/status/1692415902895997289">Screen Names</a> — macOS screenshot renamer</li>
-                        <li><a href="https://github.com/jcstein/moo">Say Moo</a> — Celestia EVM rollup demo</li>
-                        <li><a href="https://github.com/jcstein/gm-portal">GM Portal</a> — Celestia EVM rollup demo</li>
-                        <li><a href="https://github.com/jcstein/buildmarket-lol">build market</a> — NFT marketplace on Goerli</li>
-                        <li><a href="https://x.com/joshcstein/status/1644341742139834368">Base64 SVG tutorial</a> — Tutorial with Celestia</li>
-                        <li><a href="https://github.com/jcstein/bundlr-js">Bundlr JS demo</a> — Bundlr uploader</li>
-                        <li><a href="https://github.com/jcstein/r3sum3-2">R3sume</a> — Resume as an NFT</li>
-                        <li><a href="https://opensea.io/jcstein">On-Chain Resume</a> — Professional history as NFTs</li>
-                        <li><a href="https://github.com/jcstein/thirdweb-rainbowkit">thirdweb + rainbowkit</a> — ERC-1155 minting starter</li>
-                        <li><a href="https://github.com/jcstein/vite-tree">Vite Tree</a> — DIY Linktree with Chakra UI</li>
-                        <li><a href="https://github.com/jcstein/multichain-gallery-ankr">Multichain NFT Gallery</a> — Cross-chain viewer</li>
-                        <li><a href="https://joshcs.notion.site/?pvs=74">Decentralized Tooling List</a> — Curated resource list</li>
-                        <li><a href="https://speedrunethereum.com">SpeedRunEthereum.com</a> — Ethereum learning challenges</li>
-                        <li><a href="https://github.com/jcstein/sequoia-vans">Sequoia Vans</a> — i18n demo project</li>
-                    </ul>
-                </details>
+            <section>
+                <h2>Projects</h2>
+                <ul>
+                    <li>
+                        <a href="https://github.com/jcstein/celestia-gas-price"
+                            >Celestia Gas Price</a
+                        >
+                        - Raycast extension for Celestia gas prices
+                    </li>
+                    <li>
+                        <a href="https://github.com/jcstein/celestia-address"
+                            >Celestia Address</a
+                        >
+                        - Raycast extension for viewing Celestia addresses on
+                        Celenium
+                    </li>
+                    <li>
+                        <a href="https://github.com/jcstein/node-ui"
+                            >Mammoth Control Panel</a
+                        >
+                        - A UI to interact with a Celestia light node for mamo-1
+                        testnet
+                    </li>
+                    <li>
+                        <a href="https://github.com/jcstein/tg-announcement-bot"
+                            >Telegram Announcement Bot</a
+                        >
+                        - A Telegram bot for sending formatted announcements to
+                        multiple channels simultaneously
+                    </li>
+                    <li>
+                        <a
+                            href="https://github.com/jcstein/dummy_rollup/tree/tictactoe"
+                            >dummy_rollup with tictactoe</a
+                        >
+                        - Tic-tac-toe game implementation using the Celestia
+                        blockchain
+                    </li>
+                    <li>
+                        <a href="https://github.com/jcstein/dummy_rollup"
+                            >dummy_rollup</a
+                        >
+                        - A dummy rollup project to test posting and retrieving
+                        data from Celestia
+                    </li>
+                    <li>
+                        <a href="https://github.com/jcstein/celestia-cool"
+                            >celestia.cool</a
+                        >
+                        - A Celestia mempool visualization
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=YbMX42ILtLA"
+                            >CelestiaGPT demo</a
+                        >
+                        - AI chatbot for Celestia docs
+                    </li>
+                    <li>
+                        <a href="https://www.npmjs.com/package/light-nodes"
+                            >light-nodes</a
+                        >
+                        - An NPM package for using celestia-node
+                    </li>
+                    <li>
+                        <a href="https://github.com/jcstein/node-app">Quazar</a>
+                        - A Celestia light node client for macOS
+                    </li>
+                    <li>
+                        <a href="https://github.com/jcstein/loogies"
+                            >An implementation of Scaffold-ETH Optimistic
+                            Loogies on a rollup</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://x.com/joshcstein/status/1692415902895997289?s=46"
+                            >Screen Names</a
+                        >
+                        - A lightweight app to help you rename screenshots on
+                        macOS
+                    </li>
+                    <li>
+                        <a href="https://github.com/jcstein/buildmarket-lol"
+                            >build market</a
+                        >
+                        - NFT marketplace on Goerli built with thirdweb
+                    </li>
+                    <li>
+                        <a
+                            href="https://x.com/joshcstein/status/1644341742139834368?s=46"
+                            >Base64 SVG tutorial with Celestia</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://github.com/jcstein/bitkit"
+                            >Bitcoin + Rollkit + EVM demo - Bitkit.dev</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://github.com/jcstein/moo"
+                            >Celestia EVM rollup demo - Say Moo</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://github.com/jcstein/gm-portal"
+                            >Celestia EVM rollup demo - GM Portal</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://github.com/jcstein/bundlr-js"
+                            >Bundlr JS demo uploader</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://github.com/jcstein/r3sum3-2">R3sume</a>
+                        - My resume as an NFT
+                    </li>
+                    <li>
+                        <a href="https://opensea.io/jcstein">On-Chain Resume</a>
+                        - My professional history as NFTs
+                    </li>
+                    <li>
+                        <a href="https://github.com/jcstein/thirdweb-rainbowkit"
+                            >thirdweb + rainbowkit + wagmi + vite ERC-1155
+                            minting site</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://github.com/jcstein/vite-tree"
+                            >Vite Tree</a
+                        >
+                        - DIY React Linketree with Chakra UI
+                    </li>
+                    <li>
+                        <a
+                            href="https://github.com/jcstein/vite-tailwind-starter"
+                            >Vite Tailwind Starter Repository</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://github.com/jcstein/rainbowkit-vite-tailwind-starter"
+                            >RainbowKit Starter (Vite + React + Tailwind CSS)</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://github.com/jcstein/multichain-gallery-ankr"
+                            >Multichain NFT Gallery</a
+                        >
+                    </li>
+                    <li>Ankr Pay-as-you-go Calculator</li>
+                    <li>
+                        <a href="https://joshcs.notion.site/?pvs=74"
+                            >My List of Decentralized Tooling</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://x.com/web3con/status/1627838755154366465?s=46"
+                            >web3con by DeveloperDAO</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://github.com/jcstein/xp-radio"
+                            >XP Radio Linktree-style Chakra UI + React</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://speedrunethereum.com"
+                            >SpeedRunEthereum.com</a
+                        >
+                    </li>
+                    <li>pointer.gg - Solidity Keyboard Generator</li>
+                    <li>
+                        <a href="https://github.com/jcstein/sequoia-vans"
+                            >Sequoia Vans, i18n demo</a
+                        >
+                    </li>
+                    <li>3SLR Zora Demo</li>
+                    <li>Is SNL New Tonight?</li>
+                </ul>
             </section>
 
-            <!-- Talks -->
-            <section class="section" id="talks">
-                <div class="section-header">
-                    <h2 class="section-title">Talks &amp; Presentations</h2>
-                    <p class="section-subtitle">Conference talks, workshops, and panels across three continents</p>
-                </div>
-
-                <div class="talks-list">
-                    <div class="talk-group">
-                        <h3 class="talk-year">2024</h3>
-                        <div class="talk-items">
-                            <a href="https://www.youtube.com/watch?v=P3EG5FmUvNI" class="talk-item">
-                                <span class="talk-title">How to build whatever</span>
-                                <span class="talk-venue">Encode Club — Chain Abstraction Series</span>
-                            </a>
-                            <a href="https://www.youtube.com/watch?v=ZCB7y0xIYRI" class="talk-item">
-                                <span class="talk-title">How to build whatever</span>
-                                <span class="talk-venue">Modular Summit 3.0 — Brussels, Belgium</span>
-                            </a>
-                            <a href="https://consensus2024.coindesk.com/agenda/event/-how-to-build-whatever-389" class="talk-item">
-                                <span class="talk-title">How to Build Whatever</span>
-                                <span class="talk-venue">Consensus 2024 — Austin, Texas</span>
-                            </a>
-                            <a href="https://www.youtube.com/watch?v=ruXxChTdLzo" class="talk-item">
-                                <span class="talk-title">Building with OP Stack</span>
-                                <span class="talk-venue">Infinite Space Bazaar</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="talk-group">
-                        <h3 class="talk-year">2023</h3>
-                        <div class="talk-items">
-                            <a href="https://www.youtube.com/watch?v=VQ8dOjPWppo" class="talk-item">
-                                <span class="talk-title">OP Stack Rollup Workshop</span>
-                                <span class="talk-venue">Modular Summit 2.0 — Paris, France</span>
-                            </a>
-                            <a href="https://www.youtube.com/watch?v=3kLuHOJariY" class="talk-item">
-                                <span class="talk-title">Celestia Light Node Tutorial</span>
-                                <span class="talk-venue">Modular Summit 2.0 — Paris, France</span>
-                            </a>
-                            <a href="https://www.youtube.com/watch?v=_9DCV23CJV0" class="talk-item">
-                                <span class="talk-title">Developer Infrastructure Panel</span>
-                                <span class="talk-venue">Modular Summit 2.0 — Paris, France</span>
-                            </a>
-                            <a href="https://www.youtube.com/watch?v=nucX0pLY9JA" class="talk-item">
-                                <span class="talk-title">DevNTell — Modular Blockchains</span>
-                                <span class="talk-venue">Developer DAO</span>
-                            </a>
-                            <a href="https://www.youtube.com/watch?v=KWijOhR5HEU" class="talk-item">
-                                <span class="talk-title">Theory Thursdays: Celestia</span>
-                                <span class="talk-venue">ETH Denver — Denver, Colorado</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="talk-group">
-                        <h3 class="talk-year">2022</h3>
-                        <div class="talk-items">
-                            <a href="https://www.youtube.com/watch?v=LS0rqL6Zp1A" class="talk-item">
-                                <span class="talk-title">WAGMI on Polygon — Episode 3</span>
-                                <span class="talk-venue">Polygon</span>
-                            </a>
-                            <div class="talk-item">
-                                <span class="talk-title">Deploy ERC-721 &amp; Mint NFT on Avalanche</span>
-                                <span class="talk-venue">Avalanche House — Berlin, Germany</span>
-                            </div>
-                            <div class="talk-item">
-                                <span class="talk-title">Metaverse Panel with Microsoft, NVIDIA &amp; Meta</span>
-                                <span class="talk-venue">LA Hacks @ UCLA — Los Angeles</span>
-                            </div>
-                            <div class="talk-item">
-                                <span class="talk-title">Ankr Hybrid Infrastructure</span>
-                                <span class="talk-venue">ETH Dubai — Dubai, UAE</span>
-                            </div>
-                            <div class="talk-item">
-                                <span class="talk-title">Web3 Dev Tools: My Journey into Web3</span>
-                                <span class="talk-venue">Avalanche Summit — Barcelona, Spain</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <section>
+                <h2>Presentations</h2>
+                <ul>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=P3EG5FmUvNI"
+                            >How to build whatever</a
+                        >
+                        (Encode Club's Chain Abstraction educate series, 2024)
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=ZCB7y0xIYRI"
+                            >How to build whatever</a
+                        >
+                        (Modular Summit 3.0 - Brussels, Belgium, July 2024)
+                    </li>
+                    <li>
+                        <a
+                            href="https://consensus2024.coindesk.com/agenda/event/-how-to-build-whatever-389"
+                            >How to Build Whatever</a
+                        >
+                        (Consensus 2024 - Austin, Texas, May 2024)
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=ruXxChTdLzo"
+                            >Building with OP Stack</a
+                        >
+                        (Infinite Space Bazaar, April-May 2024)
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=VQ8dOjPWppo"
+                            >OP Stack Rollup Workshop</a
+                        >
+                        (Modular Summit 2.0 - Paris, France, July 2023)
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=3kLuHOJariY"
+                            >Celestia Light Node Tutorial</a
+                        >
+                        (Modular Summit 2.0 - Paris, France, July 2023)
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=_9DCV23CJV0"
+                            >Developer Infrastructure Panel</a
+                        >
+                        (Modular Summit 2.0 - Paris, France, July 2023)
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=nucX0pLY9JA"
+                            >DevNTell - Modular Blockchains</a
+                        >
+                        (Developer DAO, 2023)
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=KWijOhR5HEU"
+                            >Theory Thursdays: Celestia w/ Josh Stein</a
+                        >
+                        (ETH Denver 2023 - Denver, Colorado, February 2023)
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=LS0rqL6Zp1A"
+                            >WAGMI on Polygon - Episode 3 ft Josh Stein</a
+                        >
+                        (July 2022)
+                    </li>
+                    <li>
+                        Deploy an ERC-721 Smart Contract and Mint NFT on
+                        Avalanche with Ankr (Avalanche House - Berlin, Germany,
+                        July 2022)
+                    </li>
+                    <li>
+                        Metaverse Panel with Ankr, Microsoft, NVIDIA, and Meta
+                        (LA Hacks @ UCLA - Los Angeles, California, May 2022)
+                    </li>
+                    <li>
+                        How to Deploy an ERC-721 Contract and Mint Your First
+                        NFT - Workshop (LA Hacks @ UCLA - Los Angeles,
+                        California, April 2022)
+                    </li>
+                    <li>
+                        Ankr Hybrid Infrastructure (ETH Dubai - Dubai, UAE,
+                        March 2022)
+                    </li>
+                    <li>
+                        Web3 Developer Tools: My Journey into Web3 and the Ankr
+                        Premium Plan (Avalanche Summit - Barcelona, Spain, March
+                        2022)
+                    </li>
+                    <li>
+                        Avalanche Summit Hackathon Bounties (Avalanche Summit -
+                        Barcelona, Spain, March 2022)
+                    </li>
+                </ul>
             </section>
 
-            <!-- Writing & Tutorials -->
-            <section class="section" id="writing">
-                <div class="section-header">
-                    <h2 class="section-title">Writing &amp; Tutorials</h2>
-                    <p class="section-subtitle">Blog posts, tutorials, and technical writing</p>
-                </div>
-
-                <div class="writing-grid">
-                    <div class="writing-column">
-                        <h3 class="writing-heading">Blogs</h3>
-                        <div class="writing-links">
-                            <a href="https://paragraph.xyz/@jcs" class="writing-link">
-                                <span class="writing-platform">Paragraph</span>
-                                <span class="writing-arrow">→</span>
-                            </a>
-                            <a href="https://paragraph.com/@joshcstein" class="writing-link">
-                                <span class="writing-platform">Mirror</span>
-                                <span class="writing-arrow">→</span>
-                            </a>
-                            <a href="https://hashnode.com/@jcstein" class="writing-link">
-                                <span class="writing-platform">Hashnode</span>
-                                <span class="writing-arrow">→</span>
-                            </a>
-                            <a href="https://joshcs.substack.com/" class="writing-link">
-                                <span class="writing-platform">Substack</span>
-                                <span class="writing-arrow">→</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="writing-column">
-                        <h3 class="writing-heading">Tutorials</h3>
-                        <div class="writing-links">
-                            <a href="https://www.ankr.com/docs/tutorials/polygon-nft/" class="writing-link">
-                                <span class="writing-platform">Deploy Your First Polygon NFT</span>
-                                <span class="writing-arrow">→</span>
-                            </a>
-                            <a href="https://www.ankr.com/docs/tutorials/avalanche-nft/" class="writing-link">
-                                <span class="writing-platform">ERC-721 on Avalanche with Ankr</span>
-                                <span class="writing-arrow">→</span>
-                            </a>
-                            <a href="https://www.ankr.com/docs/tutorials/deploy-dapp-rainbowkit/" class="writing-link">
-                                <span class="writing-platform">dApp with RainbowKit &amp; Ankr</span>
-                                <span class="writing-arrow">→</span>
-                            </a>
-                            <a href="https://github.com/solana-foundation/solana-pay" class="writing-link">
-                                <span class="writing-platform">Solana Pay Point-of-Sale</span>
-                                <span class="writing-arrow">→</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+            <section>
+                <h2>Tutorials</h2>
+                <ul>
+                    <li>
+                        <a
+                            href="https://www.ankr.com/docs/tutorials/polygon-nft/"
+                            >How to Deploy Your First Polygon NFT with an
+                            ERC-721 Solidity Smart Contract and Ankr</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.ankr.com/docs/tutorials/avalanche-nft/"
+                            >How to Deploy an ERC-721 Smart Contract to
+                            Avalanche and Mint an NFT with Ankr, Hardhat, and
+                            Ethers.js</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.ankr.com/docs/tutorials/deploy-dapp-rainbowkit/"
+                            >Deploy a dApp with RainbowKit, Ankr, React, and
+                            Chakra-UI</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://github.com/solana-foundation/solana-pay"
+                            >How to Set Up your own Solana Pay PoS</a
+                        >
+                        (<a
+                            href="https://solana-pay-lyart.vercel.app/new?recipient=8efRxx3LBzXSPFwFj2UgvCsfJjfEkRxDdw2AtUi61Jtb&label=store+name"
+                            >Live Demo</a
+                        >)
+                    </li>
+                </ul>
             </section>
 
-            <!-- Design -->
-            <section class="section" id="design">
-                <div class="section-header">
-                    <h2 class="section-title">Design &amp; Art</h2>
-                    <p class="section-subtitle">Graphics, NFT galleries, and visual work</p>
-                </div>
-
-                <div class="design-gallery">
-                    <a href="dd.png" target="_blank" class="design-item">
-                        <img src="dd.png" alt="Developer DAO vibes logo" loading="lazy" />
-                        <span class="design-caption">Developer DAO vibes logo</span>
-                    </a>
-                    <a href="pn.png" target="_blank" class="design-item">
-                        <img src="pn.png" alt="Developer DAO happy hour banner" loading="lazy" />
-                        <span class="design-caption">Developer DAO happy hour</span>
-                    </a>
-                    <a href="vibes.png" target="_blank" class="design-item">
-                        <img src="vibes.png" alt="Developer DAO member hh banner" loading="lazy" />
-                        <span class="design-caption">Developer DAO member banner</span>
-                    </a>
-                </div>
-
-                <div class="gallery-links">
-                    <h3 class="writing-heading">NFT Galleries</h3>
-                    <div class="writing-links">
-                        <a href="https://deca.art/joshcs/3" class="writing-link">
-                            <span class="writing-platform">Deca</span>
-                            <span class="writing-arrow">→</span>
-                        </a>
-                        <a href="https://oncyber.io/joshstein" class="writing-link">
-                            <span class="writing-platform">oncyber</span>
-                            <span class="writing-arrow">→</span>
-                        </a>
-                    </div>
-                </div>
+            <section>
+                <h2>Writing</h2>
+                <ul>
+                    <li><a href="https://paragraph.xyz/@jcs">Paragraph</a></li>
+                    <li>
+                        <a href="https://paragraph.com/@joshcstein">Mirror</a>
+                    </li>
+                    <li>
+                        <a href="https://hashnode.com/@jcstein">Hashnode</a>
+                    </li>
+                    <li><a href="https://joshcs.substack.com/">Substack</a></li>
+                </ul>
             </section>
+
+            <section>
+                <h2>Design</h2>
+                <ul>
+                    <!--<li>
+                        <a href="https://www.behance.net/joshcstein">Behance</a>
+                    </li>-->
+                    <li>
+                        <a href="dd.png" target="_blank"
+                            >Developer DAO vibes logo</a
+                        >
+                    </li>
+                    <li>
+                        <a href="pn.png" target="_blank"
+                            >Developer DAO happy hour banner</a
+                        >
+                    </li>
+                    <li>
+                        <a href="vibes.png" target="_blank"
+                            >Developer DAO member hh banner</a
+                        >
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Art Galleries</h2>
+                <ul>
+                    <li><a href="https://deca.art/joshcs/3">Deca</a></li>
+                    <li><a href="https://oncyber.io/joshstein">oncyber</a></li>
+                </ul>
+            </section>
+
+            <footer>
+                <p><a href="verify.html">Verify my identity</a></p>
+            </footer>
         </main>
-
-        <footer class="site-footer">
-            <div class="footer-inner">
-                <div class="footer-status">
-                    <span class="status-dot"></span>
-                    Available for collaboration
-                </div>
-                <div class="footer-links">
-                    <a href="verify.html">Verify my identity</a>
-                    <span class="footer-sep">·</span>
-                    <a href="https://linkedin.com/in/joshcstein">LinkedIn</a>
-                    <span class="footer-sep">·</span>
-                    <a href="https://github.com/jcstein">GitHub</a>
-                </div>
-                <div class="footer-attribution">
-                    <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer">Created with Perplexity Computer</a>
-                </div>
-            </div>
-        </footer>
-
-        <script>
-            // Theme toggle
-            (function () {
-                const toggle = document.querySelector('[data-theme-toggle]');
-                const root = document.documentElement;
-                let theme = localStorage.getItem('theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-                root.setAttribute('data-theme', theme);
-                updateIcon();
-
-                toggle.addEventListener('click', () => {
-                    theme = theme === 'dark' ? 'light' : 'dark';
-                    root.setAttribute('data-theme', theme);
-                    localStorage.setItem('theme', theme);
-                    updateIcon();
-                });
-
-                function updateIcon() {
-                    toggle.setAttribute('aria-label', 'Switch to ' + (theme === 'dark' ? 'light' : 'dark') + ' mode');
-                    toggle.innerHTML = theme === 'dark'
-                        ? '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
-                        : '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
-                }
-            })();
-
-            // Sticky nav scroll behavior
-            (function () {
-                const nav = document.getElementById('siteNav');
-                let lastScroll = 0;
-                let ticking = false;
-
-                window.addEventListener('scroll', () => {
-                    if (!ticking) {
-                        requestAnimationFrame(() => {
-                            const currentScroll = window.scrollY;
-                            if (currentScroll > 100) {
-                                nav.classList.add('nav--scrolled');
-                            } else {
-                                nav.classList.remove('nav--scrolled');
-                            }
-                            // Active section highlighting
-                            const sections = document.querySelectorAll('.section[id], .hero[id]');
-                            const navLinks = document.querySelectorAll('.nav-link');
-                            let current = '';
-                            sections.forEach(s => {
-                                const top = s.offsetTop - 120;
-                                if (currentScroll >= top) current = s.getAttribute('id');
-                            });
-                            navLinks.forEach(link => {
-                                link.classList.toggle('nav-link--active', link.getAttribute('href') === '#' + current);
-                            });
-                            lastScroll = currentScroll;
-                            ticking = false;
-                        });
-                        ticking = true;
-                    }
-                });
-            })();
-
-        </script>
     </body>
 </html>
