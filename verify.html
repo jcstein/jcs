@@ -31,6 +31,13 @@
 
         <!-- Analytics -->
         <script defer data-domain="jcstein.dev" src="https://plausible.io/js/plausible.js"></script>
+
+        <script>
+            (function () {
+                const theme = localStorage.getItem('theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.setAttribute('data-theme', theme);
+            })();
+        </script>
     </head>
     <body>
         <nav class="site-nav nav--scrolled" aria-label="Main navigation">
@@ -73,8 +80,7 @@
             (function () {
                 const toggle = document.querySelector('[data-theme-toggle]');
                 const root = document.documentElement;
-                let theme = localStorage.getItem('theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-                root.setAttribute('data-theme', theme);
+                let theme = root.getAttribute('data-theme') || 'light';
                 updateIcon();
 
                 toggle.addEventListener('click', () => {
