@@ -34,6 +34,13 @@
         <!-- Analytics -->
         <script defer data-domain="jcstein.dev" src="https://plausible.io/js/plausible.js"></script>
 
+        <script>
+            (function () {
+                const theme = localStorage.getItem('theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.setAttribute('data-theme', theme);
+            })();
+        </script>
+
         <!-- Meta Tags -->
         <meta property="og:title" content="Josh Stein · Developer Advocate" />
         <meta property="og:description" content="Developer Advocate at Celestia Labs. Building proofs of concept, integrations, and documentation for modular blockchains." />
@@ -119,7 +126,7 @@
                 <div class="about-grid">
                     <div class="about-text">
                         <p>I work on the Developer Experience team at <a href="https://celestia.org">Celestia Labs</a>, where I build proofs of concept, coordinate integrations with partner projects, and help maintain documentation. I'm also an editor for the <a href="https://cips.celestia.org">Celestia Improvement Proposal (CIP)</a> process and contribute to network coordination across the Celestia ecosystem. You can get involved at <a href="https://forum.celestia.org">forum.celestia.org</a>.</p>
-                        <p>I've been taking things apart to see how they work for as long as I can remember: an old VCR, electronics, anything I could get a screwdriver into at the kitchen table. That curiosity led me to <strong>Thomas Jefferson High School for Science and Technology</strong>, where I studied Java, built robots with C++ and Arduino, and finished a senior research project on ArduRover (a sensor-driven robotics system).</p>
+                        <p>I've been taking things apart to see how they work for as long as I can remember: old VHS tapes, electronics, anything I could get a screwdriver into at the kitchen table. That curiosity led me to <strong>Thomas Jefferson High School for Science and Technology</strong>, where I studied Java, built robots with C++ and Arduino, and finished a senior research project on ArduRover (a sensor-driven robotics system).</p>
                         <p>After high school I repaired iPhones, Androids, PCs, and Macs at <strong>Fruit Fixed</strong>, bridging hardware and software in a hands-on way. Then I spent a few years running restaurant operations, where I re-engineered kitchen workflows and cut ticket times by 80%. I co-founded <a href="https://instagram.com/lattice.supply">Lattice Supply</a> (e-commerce on Shopify) and finished my BS in Supply Chain Management &amp; Analytics (with a math minor) at <strong>VCU School of Business</strong>, making the Dean's List twice.</p>
                         <p>Web3 clicked for me in 2021. I went from <a href="https://buildspace.so">buildspace</a> TA to DevRel Engineer at <a href="https://ankr.com">Ankr</a>, then joined Celestia Labs as a Solutions Engineer before moving into Developer Advocacy. The thread through all of it is the same: figure out how something works, then make it easier for the next person.</p>
                     </div>
@@ -450,8 +457,7 @@
             (function () {
                 const toggle = document.querySelector('[data-theme-toggle]');
                 const root = document.documentElement;
-                let theme = localStorage.getItem('theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-                root.setAttribute('data-theme', theme);
+                let theme = root.getAttribute('data-theme') || 'light';
                 updateIcon();
 
                 toggle.addEventListener('click', () => {
