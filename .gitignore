@@ -1,2 +1,4 @@
 book
 .DS_Store
+qa/
+server.log
