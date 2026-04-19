@@ -33,13 +33,12 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Build mdBook
+      - name: Install mdBook
         run: |
           curl -sS https://rustup.rs | sh -s -- -y
-          source $CARGO_HOME/env
-          cargo install mdbook
-      - name: Build book
-        run: mdbook build
+          echo "$CARGO_HOME/env" >> $GITHUB_ENV
+      - name: Build mdBook
+        run: cargo install mdbook
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
