@@ -1,5 +1,7 @@
 # Projects
 
+- [Scorch](https://jcstein.github.io/scorch/) - [GitHub](https://github.com/jcstein/scorch) - A web app for tracking war damage, oil fires, and emissions through public sources
+- [Breathe](https://github.com/jcstein/breathe) - A macOS menu bar breathing pacer with 5.5s inhale/exhale cycles based on James Nestor's _Breath_
 - [Celestia Gas Price](https://github.com/jcstein/celestia-gas-price) - Raycast extension for Celestia gas prices
 - [Celestia Address](https://github.com/jcstein/celestia-address) - Raycast extension for viewing Celestia addresses on Celenium
 - [Mammoth Control Panel](https://github.com/jcstein/node-ui) - A UI to interact with a Celestia light node for mamo-1 testnet, live at [gmamo.vercel.app](https://gmamo.vercel.app) or [controller.jcstein.dev](https://controller.jcstein.dev/)
