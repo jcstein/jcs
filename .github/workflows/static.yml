@@ -36,9 +36,10 @@ jobs:
       - name: Install mdBook
         run: |
           curl -sS https://rustup.rs | sh -s -- -y
-          echo "$CARGO_HOME/env" >> $GITHUB_ENV
-      - name: Build mdBook
-        run: cargo install mdbook
+          echo "$CARGO_HOME/bin" >> $GITHUB_PATH
+          cargo install mdbook
+      - name: Build
+        run: mdbook build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
