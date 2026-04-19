@@ -33,8 +33,12 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Install Rust
+        run: |
+          curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+          echo "$HOME/.cargo/bin" >> $GITHUB_PATH
       - name: Install mdBook
-        run: curl -sS https://rustup.rs | sh -s -- -y && echo "$CARGO_HOME/bin" >> $GITHUB_PATH && cargo install mdbook
+        run: cargo install mdbook
       - name: Build
         run: mdbook build
       - name: Upload artifact
