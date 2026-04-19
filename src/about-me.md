@@ -1,6 +1,6 @@
 # About me
 
-I started tinkering in high school at [Thomas Jefferson High School for Science and Technology](https://tjhsst.fcps.edu/) in Virginia. My senior project was the telemetry for a converted ATV with [ArduRover](https://ardupilot.org/rover/), an autonomous rover built with Arduino and C++. [Watch the demos](https://www.youtube.com/watch?v=gs0SzsodlBg) [and](https://www.youtube.com/watch?v=a9rH5DQArvY).
+I started tinkering in high school at [Thomas Jefferson High School for Science and Technology](https://tjhsst.fcps.edu/) in Virginia. My senior project was the telemetry for a converted ATV with [ArduRover](https://ardupilot.org/rover/), an autonomous rover built with Arduino and C++. [Watch the demos](https://www.youtube.com/watch?v=gs0SzsodlBg) and [here](https://www.youtube.com/watch?v=a9rH5DQArvY).
 
 I was previously a Developer Relations Engineer with [Ankr](https://ankr.com), a decentralized Web3 infrastructure provider, and a Teaching Assistant at [buildspace](https://buildspace.so/).
 
