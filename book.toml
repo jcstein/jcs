@@ -3,25 +3,22 @@ title = "Josh Stein"
 authors = ["Josh Stein"]
 description = "Josh Stein's Portfolio"
 language = "en"
-multilingual = false
 src = "src"
 
 [output.html]
 default-theme = "light"
 preferred-dark-theme = "ayu"
 git-repository-url = "https://github.com/jcstein/jcs"
-git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/jcstein/jcs/edit/main/{path}"
 cname = "jcstein.dev"
 smart-punctuation = true
-theme = "theme"
 
 [output.html.print]
 page-break = false
 
 [output.html.redirect]
 "/joshcs-lol.html" = "https://joshcs-lol.vercel.app"
-"/joshcs-xyz.html" = "https://joshcs.xyz"
+"/joshcs-xyz.html" = "https://joshcs.notion.site"
 "/jcs-dev.html" = "https://jcs-dev.onrender.com"
-"/jcstein.html" = "https://jcstein.com"
+"/jcstein.com" = "https://jcstein.com"
 "/josh-on-render.html" = "https://josh.onrender.com"

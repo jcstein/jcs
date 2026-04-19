@@ -1,21 +1,21 @@
 # About me
 
-I began my journey into the computer science world when I was finishing university during the pandemic. I discovered my love for making lightweight websites and my love for blockchains shortly after.
+I started tinkering in high school at [Thomas Jefferson High School for Science and Technology](https://tjhsst.fcps.edu/) in Virginia. My senior project was the telemetry for a converted ATV with [ArduRover](https://ardupilot.org/rover/), an autonomous rover built with Arduino and C++. [Watch the demos](https://www.youtube.com/watch?v=gs0SzsodlBg) [and](https://www.youtube.com/watch?v=a9rH5DQArvY).
 
-I completed my Bachelor of Science in Business concentrating in Supply Chain Management and Analytics from VCU's School of Business and a Minor in Mathematics in May 2021. I made Dean's List in August 2020 and May 2021.
+I was previously a Developer Relations Engineer with [Ankr](https://ankr.com), a decentralized Web3 infrastructure provider, and a Teaching Assistant at [buildspace](https://buildspace.so/).
 
-In October 2021, I discovered buildspace through Developer DAO. This led me to my first frontend contract and then a short gig as a teaching assistant with [buildspace](https://buildspace.so). Next, I worked full-time as a Developer Relations Engineer at [Ankr](https://ankr.com).
+I fell in love with building in my mid-20s and haven't stopped since. When I'm not working, you'll find me tinkering with side projects like home air quality automation, menu bar apps, or LoRa radios for emergency comms. I believe that play is how we stay curious. If I'm not playing with computers, I'm probably hiking, climbing, or reading.
 
-I'm also hanging out in [Developer DAO](https://developerdao.com) and [Peeple DAO](https://peeple.work/).
+### GitHub Activity
+
+![GitHub contributions graph](https://ghchart.rshah.org/jcstein)
 
 While I don't keep them up-to-date, if you're interested (or looking for) my old portfolios, you can find them here:
 
 - [joshcs-lol](/joshcs-lol.html) (2022-2024)
-- [joshcs.xyz](/joshcs-xyz.html) (2021-2022)
+- [joshcs.xyz](https://joshcs.notion.site) (2021-2022)
 - [jcs-dev](/jcs-dev.html) (2021)
 - [jcstein.com](/jcstein.html) (2020-2021)
 - [josh.onrender.com](/josh-on-render.html) (2020-2021)
-
-In the past, I also co-founded [Lattice Supply](https://lattice.supply/).
 
 The next pages show my previous projects, presentations, and things I've built.
