@@ -34,10 +34,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Install mdBook
-        run: |
-          curl -sS https://rustup.rs | sh -s -- -y
-          echo "$CARGO_HOME/bin" >> $GITHUB_PATH
-          cargo install mdbook
+        run: curl -sS https://rustup.rs | sh -s -- -y && echo "$CARGO_HOME/bin" >> $GITHUB_PATH && cargo install mdbook
       - name: Build
         run: mdbook build
       - name: Upload artifact
