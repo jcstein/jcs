@@ -1,0 +1,22 @@
+---
+import '../styles/global.css';
+const { title = 'Josh Stein' } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta name="description" content="Josh Stein — Developer Advocate at Celestia Labs" />
+  <meta name="theme-color" content="#0E1014" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <script defer data-domain="jcstein.dev" src="https://plausible.io/js/plausible.js"></script>
+</head>
+<body>
+  <slot />
+</body>
+</html>

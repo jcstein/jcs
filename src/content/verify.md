@@ -1,4 +1,8 @@
-# Verify my identity
+---
+title: Verify my identity
+---
+
+## Verify my identity
 
 If you're verifying my identity, my only telegram is `@josh_cs` (please, don't use this as an invitation to spam me).
 

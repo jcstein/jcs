@@ -1,4 +1,8 @@
-# About me
+---
+title: About me
+---
+
+## About me
 
 I started tinkering in high school at [Thomas Jefferson High School for Science and Technology](https://tjhsst.fcps.edu/) in Virginia. My senior project was the telemetry for a converted ATV with [ArduRover](https://ardupilot.org/rover/), an autonomous rover built with Arduino and C++. Watch the demos: <https://www.youtube.com/watch?v=gs0SzsodlBg> & <https://www.youtube.com/watch?v=a9rH5DQArvY>.
 
@@ -12,10 +16,10 @@ I fell in love with building in my mid-20s and haven't stopped since. When I'm n
 
 While I don't keep them up-to-date, if you're interested (or looking for) my old portfolios, you can find them here:
 
-- [joshcs-lol](/joshcs-lol.html) (2022-2024)
+- [joshcs-lol](https://joshcs-lol.vercel.app) (2022-2024)
 - [joshcs.xyz](https://joshcs.notion.site) (2021-2022)
-- [jcs-dev](/jcs-dev.html) (2021)
-- [jcstein.com](/jcstein.html) (2020-2021)
-- [josh.onrender.com](/josh-on-render.html) (2020-2021)
+- [jcs-dev](https://jcs-dev.onrender.com) (2021)
+- [jcstein.com](https://jcstein.com) (2020-2021)
+- [josh.onrender.com](https://josh.onrender.com) (2020-2021)
 
 The next pages show my previous projects, presentations, and things I've built.
