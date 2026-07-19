@@ -1,6 +1,6 @@
 # Summary
 
-[Intro](README.md)
+[Home](README.md)
 
 - [About me](./about-me.md)
 - [Projects](./projects.md)

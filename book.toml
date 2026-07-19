@@ -6,8 +6,9 @@ language = "en"
 src = "src"
 
 [output.html]
-default-theme = "light"
-preferred-dark-theme = "ayu"
+default-theme = "coal"
+preferred-dark-theme = "coal"
+additional-css = ["theme/css/custom.css"]
 git-repository-url = "https://github.com/jcstein/jcs"
 edit-url-template = "https://github.com/jcstein/jcs/edit/main/{path}"
 cname = "jcstein.dev"

@@ -1,4 +1,10 @@
-# Intro
+<div class="hero">
+<div>
+<h1>Josh Stein</h1>
+<p class="tagline">Developer Advocate at <a href="https://celestia.org">Celestia Labs</a></p>
+</div>
+<img src="https://github.com/jcstein.png" alt="Josh Stein" class="avatar" />
+</div>
 
 My name is [Josh](https://joshcs.lol) and I'm a Developer Advocate at [Celestia Labs](https://celestia.org). I work on the Developer Experience team and focus on documentation, demos, and hackathons. I am also an editor for the Celestia Improvement Proposal process, which you can get involved in at [cips.celestia.org](https://cips.celestia.org) and [forum.celestia.org](https://forum.celestia.org).
 
