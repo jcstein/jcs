@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Josh Stein</title>
+  <meta name="description" content="Josh Stein — software engineer, Developer Advocate at Celestia Labs" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <script defer data-domain="jcstein.dev" src="https://plausible.io/js/plausible.js"></script>
+</head>
+<body>
+  <canvas id="matrix" aria-hidden="true"></canvas>
+
+  <header class="site-header">
+    <a href="#home" class="brand">jcs</a>
+    <nav class="nav-desktop" aria-label="Primary">
+      <a href="#about">about</a>
+      <a href="#projects">projects</a>
+      <a href="#presentations">talks</a>
+      <a href="#work">work</a>
+      <a href="#verify">verify</a>
+    </nav>
+    <details class="nav-mobile">
+      <summary aria-label="Open menu">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+          <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none" />
+        </svg>
+      </summary>
+      <nav aria-label="Mobile primary">
+        <a href="#about">about</a>
+        <a href="#projects">projects</a>
+        <a href="#presentations">talks</a>
+        <a href="#work">work</a>
+        <a href="#verify">verify</a>
+      </nav>
+    </details>
+  </header>
+
+  <main>
+    <section id="home" class="hero-section"><!-- HOME --></section>
+    <section id="about" class="prose"><!-- ABOUT --></section>
+    <section id="projects" class="prose"><!-- PROJECTS --></section>
+    <section id="presentations" class="prose"><!-- PRESENTATIONS --></section>
+    <section id="work" class="prose"><!-- WORK --></section>
+    <section id="verify" class="prose"><!-- VERIFY --></section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Built with <a href="https://vitejs.dev">Vite</a> &bull; <a href="https://github.com/jcstein/jcs">View source</a></p>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
