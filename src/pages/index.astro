@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import { Content as Home } from '../content/home.md';
+import { Content as About } from '../content/about.md';
+import { Content as Projects } from '../content/projects.md';
+import { Content as Presentations } from '../content/presentations.md';
+import { Content as Work } from '../content/work.md';
+import { Content as Verify } from '../content/verify.md';
+---
+<Layout title="Josh Stein">
+  <Navbar />
+  <main>
+    <section id="section-home" class="hero-section">
+      <Home />
+    </section>
+    <section id="section-about" class="prose">
+      <About />
+    </section>
+    <section id="section-projects" class="prose">
+      <Projects />
+    </section>
+    <section id="section-presentations" class="prose">
+      <Presentations />
+    </section>
+    <section id="section-work" class="prose">
+      <Work />
+    </section>
+    <section id="section-verify" class="prose">
+      <Verify />
+    </section>
+  </main>
+  <Footer />
+</Layout>

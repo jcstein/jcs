@@ -1,0 +1,30 @@
+---
+const links = [
+  { label: 'Home', href: '#section-home' },
+  { label: 'About', href: '#section-about' },
+  { label: 'Projects', href: '#section-projects' },
+  { label: 'Talks', href: '#section-presentations' },
+  { label: 'Work', href: '#section-work' },
+  { label: 'Verify', href: '#section-verify' },
+];
+---
+<header class="site-header">
+  <a href="#section-home" class="brand">jcs</a>
+  <nav class="nav-desktop" aria-label="Primary">
+    {links.map(link => (
+      <a href={link.href}>{link.label}</a>
+    ))}
+  </nav>
+  <details class="nav-mobile">
+    <summary aria-label="Open menu">
+      <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+        <path fill="currentColor" d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </summary>
+    <nav aria-label="Mobile primary">
+      {links.map(link => (
+        <a href={link.href}>{link.label}</a>
+      ))}
+    </nav>
+  </details>
+</header>
