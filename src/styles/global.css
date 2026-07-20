@@ -314,7 +314,7 @@ section + section {
 }
 
 /* Project cards */
-#projects.prose > ul {
+#section-projects.prose > ul {
   list-style: none;
   padding: 0;
   display: grid;
@@ -322,7 +322,7 @@ section + section {
   gap: 1rem;
 }
 
-#projects.prose > ul > li {
+#section-projects.prose > ul > li {
   background: var(--bg-elevated);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -330,40 +330,40 @@ section + section {
   transition: transform 0.2s ease, border-color 0.2s ease;
 }
 
-#projects.prose > ul > li:hover {
+#section-projects.prose > ul > li:hover {
   border-color: var(--accent);
   transform: translateY(-2px);
 }
 
-#projects.prose > ul > li > a:first-child {
+#section-projects.prose > ul > li > a:first-child {
   font-weight: 600;
   color: var(--fg);
 }
 
-#projects.prose > ul > li ul {
+#section-projects.prose > ul > li ul {
   margin-top: 0.5rem;
   padding-left: 1.25rem;
 }
 
-#projects.prose > ul > li pre {
+#section-projects.prose > ul > li pre {
   margin-top: 0.75rem;
 }
 
 @media (min-width: 720px) {
-  #projects.prose > ul {
+  #section-projects.prose > ul {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 /* Presentations year headings */
-#presentations.prose h3 {
+#section-presentations.prose h3 {
   color: var(--fg);
   font-weight: 700;
   margin-top: 2.5rem;
 }
 
 /* Work subsections */
-#work.prose h3 {
+#section-work.prose h3 {
   margin-top: 2.5rem;
 }
 
