@@ -1,10 +1,10 @@
-# My work
+---
+title: My work
+---
 
-## [Projects](./projects.md)
+## My work
 
-## [Presentations](./presentations.md)
-
-## Other work
+See the [Projects](#projects) and [Talks](#presentations) sections for project and speaking highlights.
 
 ### Tutorials
 

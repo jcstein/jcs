@@ -1,4 +1,8 @@
-# Projects
+---
+title: Projects
+---
+
+## Projects
 
 - [Scorch](https://jcstein.github.io/scorch/) - [GitHub](https://github.com/jcstein/scorch) - A web app for tracking war damage, oil fires, and emissions through public sources
 - [Breathe](https://github.com/jcstein/breathe) - A macOS menu bar breathing pacer with 5.5s inhale/exhale cycles based on James Nestor's _Breath_
@@ -30,7 +34,7 @@
 - [Bundlr JS demo uploader](https://github.com/jcstein/bundlr-js-demo)
 - [R3sume](https://github.com/jcstein/r3sume) - my resume as an NFT
 - [thirdweb + rainbowkit + wagmi + vite ERC-1155 minting site](https://github.com/jcstein/thirdweb-rainbowkit)
-- [Vite Tree](https://github.com/jcstein/vite-tree) - DIY React Linketree with Chakra UI
+- [Vite Tree](https://github.com/jcstein/vite-tree) - DIY React Linktree with Chakra UI
 - [Vite Tailwind Starter Repository](https://github.com/jcstein/vite-tailwind-starter)
 - [RainbowKit Starter (Vite + React + Tailwind CSS)](https://github.com/jcstein/rainbowkit-vite-tailwind)
 - [Multichain NFT Gallery](https://github.com/jcstein/multichain-nft-gallery)

@@ -1,2 +1,5 @@
-book
 .DS_Store
+.astro/
+book/
+node_modules/
+dist/
