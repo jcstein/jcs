@@ -19,7 +19,7 @@
 - [celestia.cool](https://celestia-cool.jcstein.dev) - a Celestia mempool visualization
 - [light-nodes](https://www.npmjs.com/package/light-nodes) - an NPM package for using celestia-node
 - [Quazar](https://github.com/jcstein/node-app) - a Celestia light node client for macOS
-- [moveyourcar.lol](https://moveyourcar.lol) - a bot to send you parking notifications near you
+- [moveyourcar.lol](https://blockparty.jcstein.dev) - a bot to send you parking notifications near you
 - [An implementation of Scaffold-ETH Optimistic Loogies on a rollup](https://github.com/jcstein/optimistic-loogies)
 - [Screen Names](https://github.com/jcstein/ScreenNames) - a lightweight app to help you rename screenshots on macOS
 - [build market](https://github.com/jcstein/build-market) - NFT marketplace on Goerli built with thirdweb
