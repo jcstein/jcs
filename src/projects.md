@@ -1,10 +1,10 @@
 # Projects
 
-- [Scorch](https://jcstein.github.io/scorch/) - [GitHub](https://github.com/jcstein/scorch) - A web app for tracking war damage, oil fires, and emissions through public sources
+- [Scorch](https://scorch.jcstein.dev) - [GitHub](https://github.com/jcstein/scorch) - A web app for tracking war damage, oil fires, and emissions through public sources
 - [Breathe](https://github.com/jcstein/breathe) - A macOS menu bar breathing pacer with 5.5s inhale/exhale cycles based on James Nestor's _Breath_
 - [Celestia Gas Price](https://github.com/jcstein/celestia-gas-price) - Raycast extension for Celestia gas prices
 - [Celestia Address](https://github.com/jcstein/celestia-address) - Raycast extension for viewing Celestia addresses on Celenium
-- [Mammoth Control Panel](https://github.com/jcstein/node-ui) - A UI to interact with a Celestia light node for mamo-1 testnet, live at [gmamo.vercel.app](https://gmamo.vercel.app) or [controller.jcstein.dev](https://controller.jcstein.dev/)
+- [Mammoth Control Panel](https://github.com/jcstein/node-ui) - A UI to interact with a Celestia light node for mamo-1 testnet, live at [node-ui.jcstein.dev](https://node-ui.jcstein.dev)
 - [Telegram Announcement Bot](https://github.com/jcstein/tg-announcement-bot) - A Telegram bot for sending formatted announcements to multiple channels simultaneously.
 - [dummy_rollup with tictactoe](https://github.com/jcstein/dummy_rollup/tree/tictactoe) - This is a Tic-tac-toe game implementation using the Celestia blockchain.
 - [dummy_rollup](https://github.com/jcstein/dummy_rollup) - This is a dummy rollup project to test posting and retrieving data from Celestia.
@@ -16,10 +16,10 @@
   ```bash
   bash -c "$(curl -sL https://docs.celestia.org/celestia-app.sh)"
   ```
-- [celestia.cool](https://celestia.cool) - a Celestia mempool visualization
+- [celestia.cool](https://celestia-cool.jcstein.dev) - a Celestia mempool visualization
 - [light-nodes](https://www.npmjs.com/package/light-nodes) - an NPM package for using celestia-node
 - [Quazar](https://github.com/jcstein/node-app) - a Celestia light node client for macOS
-- [moveyourcar.lol](https://moveyourcar.lol) - a bot to send you parking notifications near you
+- [moveyourcar.lol](https://blockparty.jcstein.dev) - a bot to send you parking notifications near you
 - [An implementation of Scaffold-ETH Optimistic Loogies on a rollup](https://github.com/jcstein/optimistic-loogies)
 - [Screen Names](https://github.com/jcstein/ScreenNames) - a lightweight app to help you rename screenshots on macOS
 - [build market](https://github.com/jcstein/build-market) - NFT marketplace on Goerli built with thirdweb
@@ -50,4 +50,4 @@
 - [buildspace - intro to web3](https://replit.com/@joshcs/waveportal-starter-project)
 - [Sequoia Vans, i18n demo](https://github.com/jcstein/sequoia-vans)
 - [3SLR Zora Demo](https://github.com/jcstein/3slr-zora)
-- [Is SNL New Tonight?](https://issnlnewtonight.com)
+- [Is SNL New Tonight?](https://is-snl-new-tonight.jcstein.dev)

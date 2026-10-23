@@ -17,8 +17,8 @@ smart-punctuation = true
 page-break = false
 
 [output.html.redirect]
-"/joshcs-lol.html" = "https://joshcs-lol.vercel.app"
+"/joshcs-lol.html" = "https://joshcs-lol.jcstein.dev"
 "/joshcs-xyz.html" = "https://joshcs.notion.site"
-"/jcs-dev.html" = "https://jcs-dev.onrender.com"
+"/jcs-dev.html" = "https://jcs-dev.jcstein.dev"
 "/jcstein.com" = "https://jcstein.com"
-"/josh-on-render.html" = "https://josh.onrender.com"
+"/josh-on-render.html" = "https://josh.jcstein.dev"
