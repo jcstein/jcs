@@ -15,7 +15,7 @@ While I don't keep them up-to-date, if you're interested (or looking for) my old
 - [joshcs-lol](/joshcs-lol.html) (2022-2024)
 - [joshcs.xyz](https://joshcs.notion.site) (2021-2022)
 - [jcs-dev](/jcs-dev.html) (2021)
-- [jcstein.com](/jcstein.html) (2020-2021)
+- [jcstein.com](https://jcstein.com) (2020-2021)
 - [josh.onrender.com](/josh-on-render.html) (2020-2021)
 
 The next pages show my previous projects, presentations, and things I've built.
