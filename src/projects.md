@@ -24,7 +24,7 @@
 - [Screen Names](https://github.com/jcstein/ScreenNames) - a lightweight app to help you rename screenshots on macOS
 - [build market](https://github.com/jcstein/build-market) - NFT marketplace on Goerli built with thirdweb
 - [Base64 SVG tutorial with Celestia](https://github.com/jcstein/base64-svg-celestia)
-- [Bitcoin + Rollkit + EVM demo - Bitkit.dev](https://bitkit.dev)
+- [Bitcoin + Rollkit + EVM demo - Bitkit](https://github.com/jcstein/bitkit)
 - [Celestia EVM rollup demo - Say Moo](https://github.com/jcstein/say-moo)
 - [Celestia EVM rollup demo - GM Portal](https://github.com/jcstein/gm-portal)
 - [Bundlr JS demo uploader](https://github.com/jcstein/bundlr-js-demo)
